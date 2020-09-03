@@ -74,6 +74,8 @@ const Types = {
     allFiles: '*/*',
     audio: 'audio/*',
     csv: 'text/csv',
+    doc:'application/msword',
+    docx: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
     images: 'image/*',
     plainText: 'text/plain',
     pdf: 'application/pdf',
@@ -84,6 +86,8 @@ const Types = {
     allFiles: 'public.content',
     audio: 'public.audio',
     csv: 'public.comma-separated-values-text',
+    doc: 'com.microsoft.word.doc',
+    docx: 'org.openxmlformats.wordprocessingml.document',
     images: 'public.image',
     plainText: 'public.plain-text',
     pdf: 'com.adobe.pdf',
@@ -92,6 +96,8 @@ const Types = {
   },
   extensions: {
     allFiles: '*',
+    doc:'.doc',
+    docx: '.docx',
     audio:
       '.3g2 .3gp .aac .adt .adts .aif .aifc .aiff .asf .au .m3u .m4a .m4b .mid .midi .mp2 .mp3 .mp4 .rmi .snd .wav .wax .wma',
     csv: '.csv',
