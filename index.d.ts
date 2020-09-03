@@ -12,6 +12,8 @@ declare module 'react-native-document-picker' {
   type Types = {
     mimeTypes: {
       allFiles: '*/*';
+      doc:'application/msword';
+      docx: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document';
       audio: 'audio/*';
       csv: 'text/csv';
       images: 'image/*';
@@ -25,6 +27,8 @@ declare module 'react-native-document-picker' {
       audio: 'public.audio';
       csv: 'public.comma-separated-values-text';
       images: 'public.image';
+      doc: 'com.microsoft.word.doc';
+      docx: 'org.openxmlformats.wordprocessingml.document';
       plainText: 'public.plain-text';
       pdf: 'com.adobe.pdf';
       video: 'public.movie';
@@ -32,6 +36,8 @@ declare module 'react-native-document-picker' {
     };
     extensions: {
       allFiles: '*';
+      doc:'.doc';
+      docx: '.docx';
       audio: '.3g2 .3gp .aac .adt .adts .aif .aifc .aiff .asf .au .m3u .m4a .m4b .mid .midi .mp2 .mp3 .mp4 .rmi .snd .wav .wax .wma';
       csv: '.csv';
       images: '.jpeg .jpg .png';
