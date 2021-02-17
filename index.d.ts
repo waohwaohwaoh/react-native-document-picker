@@ -16,7 +16,9 @@ declare module 'react-native-document-picker' {
       docx: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document';
       audio: 'audio/*';
       csv: 'text/csv';
-      images: 'image/*';
+      jpeg:'image/jpeg',
+      jpg: 'image/pjpeg',
+      png: 'image/png',
       plainText: 'text/plain';
       pdf: 'application/pdf';
       video: 'video/*';
@@ -26,7 +28,9 @@ declare module 'react-native-document-picker' {
       allFiles: 'public.content';
       audio: 'public.audio';
       csv: 'public.comma-separated-values-text';
-      images: 'public.image';
+      jpeg:'public.jpeg',
+      jpg: 'public.jpg',
+      png: 'public.png',
       doc: 'com.microsoft.word.doc';
       docx: 'org.openxmlformats.wordprocessingml.document';
       plainText: 'public.plain-text';
@@ -40,7 +44,9 @@ declare module 'react-native-document-picker' {
       docx: '.docx';
       audio: '.3g2 .3gp .aac .adt .adts .aif .aifc .aiff .asf .au .m3u .m4a .m4b .mid .midi .mp2 .mp3 .mp4 .rmi .snd .wav .wax .wma';
       csv: '.csv';
-      images: '.jpeg .jpg .png';
+      jpeg:'.jpeg',
+      jpg: '.jpg',
+      png: '.png',
       plainText: '.txt';
       pdf: '.pdf';
       video: '.mp4';
